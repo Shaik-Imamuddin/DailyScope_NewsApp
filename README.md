@@ -1,0 +1,1 @@
+# DailyScope_NewsApp
