@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>DailyScope</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="top-bar">
+    <div class="title">DailyScope</div>
+
+    <div class="search-box">
+      <input type="text" id="query" placeholder="Search news topic..." />
+      <button onclick="searchNews()">Search</button>
+    </div>
+  </div>
+
+  <div class="content">
+    <div id="message" class="placeholder">
+      let's search a topic of news to read....
+    </div>
+
+    <div id="news" class="news-container"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
